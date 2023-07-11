@@ -51,7 +51,7 @@ font-family: 'Open Sans', sans-serif; */
     color: white;
     border: 0;
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 400;
     box-shadow: 4px 4px 5px gray;
 }
 
@@ -69,13 +69,15 @@ font-family: 'Open Sans', sans-serif; */
 }
 
 /* main part start */
+main {
+    margin-top: 150px;
+}
 
 /* feature section style*/
 .feature {
     text-align: center;
     width: 80%;
     margin: 0 auto;
-    padding-top: 150px;
 
 }
 
@@ -102,13 +104,17 @@ font-family: 'Open Sans', sans-serif; */
     align-items: center;
     width: 80%;
     margin: 0 auto;
+    padding: 0;
 }
 
 .f-card {
-    width: 350px;
+    /* width: 350px;
+    height: 350px; */
+    min-width: 340px;
     height: 350px;
     position: relative;
     box-shadow: 4px 4px 8px gray;
+    padding: 0;
 }
 
 .feature-p {
@@ -160,13 +166,15 @@ font-family: 'Open Sans', sans-serif; */
     display: flex;
     justify-content: space-around;
     text-align: center;
-    padding: 50px;
+
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
     margin-top: 120px;
     box-shadow: 4px 4px 10px gray;
     height: 200px;
+    padding-top: 40px;
 }
+
 
 .free-text {
     margin-top: 24px;
@@ -178,7 +186,8 @@ font-family: 'Open Sans', sans-serif; */
     padding: 50px 200px;
     text-align: center;
     border-radius: 8px;
-    background: rgba(229, 84, 115, 0.05);
+    /* background: rgba(229, 84, 115, 0.05); */
+    background-color: #FFE1E1;
     height: 400px;
     display: flex;
     gap: 80px;
@@ -202,6 +211,60 @@ font-family: 'Open Sans', sans-serif; */
     max-width: 500px;
 }
 
+/* partner style */
+.partner {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+    /* padding: 80px; */
+    background-image: linear-gradient(to top, #FFACAC, #FFBFA9, #FFE1E1);
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px gray;
+}
+
+.partner-title {
+    color: #272727;
+
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.partner-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 24px 0;
+    width: 70%;
+
+}
+
+.partner img {
+    height: 500px;
+    width: 500px;
+    padding: 10px;
+
+
+}
+
+.partner-btn {
+    padding: 20px;
+    height: 60px;
+    width: 200px;
+    border-radius: 8px;
+    background: #E55473;
+    color: white;
+    border: 0;
+    font-size: 20px;
+    font-weight: 400;
+    box-shadow: 4px 4px 5px gray;
+}
+
+
 /* insta section style */
 
 .instra {
@@ -220,6 +283,7 @@ font-family: 'Open Sans', sans-serif; */
     gap: 15px;
     justify-content: space-between;
     justify-content: center;
+    margin-bottom: 150px;
 }
 
 .photo {
@@ -247,31 +311,17 @@ font-family: 'Open Sans', sans-serif; */
     margin: 0 auto;
 }
 
-/* latest section style */
-.latest {
-    width: 80%;
-    margin: 0 auto;
-    /* background-image: url("../Flower Asset/Rectangle\ 9.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100%; */
-    padding-top: 150px;
-    padding-bottom: 100px;
-    border-radius: 15px;
-
-
-
-}
 
 .latest-sec {
     text-align: center;
-    background-image: url("../Flower Asset/Rectangle\ 9.png"), linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4));
+    background-image: url("../Flower Asset/Rectangle\ 9.png"), linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3));
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
     background-blend-mode: overlay;
     padding: 30px;
-
+    width: 73%;
+    margin: 0 auto 150px;
 }
 
 .latest-title {
@@ -280,7 +330,7 @@ font-family: 'Open Sans', sans-serif; */
 
     font-size: 30px;
     font-weight: 800;
-    margin-top: 100px;
+    margin-top: 80px;
 }
 
 .latest-description {
@@ -314,6 +364,8 @@ font-family: 'Open Sans', sans-serif; */
     font-size: 16px;
     font-weight: 700;
     box-shadow: 4px 4px 5px gray;
+    margin: 0 auto;
+    align-items: center;
 }
 
 /* footer section style */
